@@ -1,0 +1,68 @@
+.titulo{
+    background: rgb(116, 116, 116);
+    color: aqua;
+    box-shadow: 10px 10px 5px #888;
+    text-align: center;
+}
+.menu{
+    color: #fff;
+    background: rgb(0, 0, 0) ;
+    padding: 10px 30px;
+    display: inline-block;
+    box-shadow: 10px 5px 5px #888;
+    text-decoration: none;
+}
+.menu:hover{
+    background: #333;
+}
+.productos{
+    margin: 0 auto;
+    width: 90%;   
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.precio{
+    color: aqua;
+    font-size: 50px;
+}
+.comprar{
+    background: salmon;
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.comprar:hover{
+    background-color: #333;
+}
+.text-center{
+    text-align: center;
+}
+.columna{
+    background: rgb(228, 228, 228);
+    color: #333;
+    border: 1px solid #333;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px #888;
+    width: 23%;
+    box-sizing: border-box;
+}
+.sub{
+    display: flex;
+    justify-content: space-around;
+}
+.origenes{
+    
+}
+.contacto{
+    
+}
+.inline{
+    display: inline-block;
+}
